@@ -3,15 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://acupanvincent2004-crypto.github.io/portfolio",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "oxlint",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-,
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "lucide-react": "^1.21.0",
     "react": "^19.2.7",
@@ -27,14 +27,6 @@
     "oxlint": "^1.69.0",
     "postcss": "^8.5.15",
     "tailwindcss": "^3.4.19",
-    "vite": "^8.1.0",
-
-    "homepage": "https://yourusername.github.io/portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
+    "vite": "^8.1.0"
   }
-  
 }

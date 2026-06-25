@@ -4,22 +4,22 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const Projects = () => {
   const projects = [
     {
-      title: "InventoryIQ",
+      title: "HRMS Web - Based System",
       badge: "CRUD App",
       description: "Full-stack CRUD inventory management app with real-time updates, role-based auth, and REST API. Built with React, Node.js, and PostgreSQL.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
-      tags: ["React", "Node.js", "PostgreSQL", "JWT"],
+      tags: ["React", "Node.js", "MySQL"],
       codeLink: "#",
       demoLink: "#"
     },
     {
-      title: "DataPulse Dashboard",
+      title: "Automotive Web - Based System",
       badge: "Data Dashboard",
       description: "Business analytics dashboard visualizing KPIs, sales funnels, and cohort data. Integrated with live CSV uploads and Tableau embed.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
-      tags: ["React", "Python", "Tableau", "SQL"],
-      codeLink: "#",
-      demoLink: "#"
+      image: "AUTOMOTIVEPIC1.png",
+      tags: ["React", "Node.js", "MySQL", "Firebase"],
+      codeLink: "https://marbien-trading.web.app/",
+      demoLink: "https://marbien-trading.web.app/"
     },
     {
       title: "DevPortfolio (this site)",

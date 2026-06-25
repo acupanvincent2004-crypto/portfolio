@@ -18,8 +18,8 @@ const Experience = () => {
       company: "Department of Information and Communications Technology Region 4A",
       date: "Feb 2026 - May 2026",
       descriptions: [
-        "Perform OS Installation, Network Configuration and Troubleshooting",
-        "Basic Hardware & Software Repair",
+        "Perform OS Installation, Network Configuration and Troubleshooting, Basic Hardware & Software Repair",
+        
         "Cabling Management, WiFi Configuration and Radio/Satellite Set Up & Configuration",
         "Build a Web-Based System for HR Office and Excel (Script Automation)"
       ],

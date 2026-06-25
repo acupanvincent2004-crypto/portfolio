@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
-import { FiLinkedin, FiGithub } from 'react-icons/fi';
+import { FiLinkedin, FiGithub, FiPhone } from 'react-icons/fi';
 
 const Contact = () => {
   return (
@@ -24,6 +24,13 @@ const Contact = () => {
                 <Mail size={20} className="group-hover:text-primary" />
               </div>
               <span>acupanvincent2004@gmail.com</span>
+            </a>
+
+            <a href="#" className="flex items-center gap-4 text-textMuted hover:text-primary transition-colors group">
+              <div className="bg-surfaceLight p-3 rounded-xl group-hover:bg-primary/10 transition-colors">
+                <FiPhone size={20} className="group-hover:text-primary" />
+              </div>
+              <span>0928 - 292 - 7738</span>
             </a>
             
             <a href="#" className="flex items-center gap-4 text-textMuted hover:text-primary transition-colors group">

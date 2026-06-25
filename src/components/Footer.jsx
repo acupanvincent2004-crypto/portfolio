@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
-import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
+import { FiFacebook, FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
 const Footer = () => {
   return (
@@ -12,16 +12,41 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="#" className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors">
+          {/* GitHub */}
+          <a 
+            href="https://github.com/acupanvincent2004-crypto" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors"
+          >
             <FiGithub size={18} />
           </a>
-          <a href="#" className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors">
+
+          {/* LinkedIn */}
+          <a 
+            href="https://www.linkedin.com/in/vincent-acupan-34319431a/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors"
+          >
             <FiLinkedin size={18} />
           </a>
-          <a href="#" className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors">
-            <FiTwitter size={18} />
+
+          {/* Facebook */}
+          <a 
+            href="https://www.facebook.com/vincent.acupan.2024" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors"
+          >
+            <FiFacebook size={18} />
           </a>
-          <a href="#" className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors">
+
+          {/* Email */}
+          <a 
+            href="mailto:acupanvincent2004@gmail.com" 
+            className="bg-surfaceLight p-2 rounded-lg text-textMuted hover:text-primary hover:bg-primary/10 transition-colors"
+          >
             <Mail size={18} />
           </a>
         </div>

@@ -29,15 +29,6 @@ const Education = () => {
             <h3 className="text-2xl font-bold text-textMain mb-1">BS in Information Technology</h3>
             <p className="text-primary font-medium mb-2">Major in Service Management</p>
             <p className="text-textMuted mb-6">Batangas State University TNEU · Graduated August 2026</p>
-            
-            <div className="flex gap-3">
-              <span className="bg-surfaceLight text-textMain px-3 py-1 rounded-md text-sm font-medium border border-surfaceLight">
-                GPA: 3.7
-              </span>
-              <span className="bg-surfaceLight text-textMain px-3 py-1 rounded-md text-sm font-medium border border-surfaceLight">
-                Dean's List
-              </span>
-            </div>
           </div>
         </div>
 
