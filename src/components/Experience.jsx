@@ -11,7 +11,8 @@ const Experience = () => {
         "Provided structured drum lessons emphasizing rhythm, technique, and musical expression.",
         "Supported student growth through personalized instruction and performance preparation."
       ],
-      tags: ["Music Education", "Performance Coaching"]
+      tags: ["Music Education", "Performance Coaching"],
+      mapsLink: "https://maps.app.goo.gl/75ceVYbFztbjtcJWA"
     },
     {
       role: "Full-Stack Dev & IT Support Intern",
@@ -19,11 +20,11 @@ const Experience = () => {
       date: "Feb 2026 - May 2026",
       descriptions: [
         "Perform OS Installation, Network Configuration and Troubleshooting, Basic Hardware & Software Repair",
-        
         "Cabling Management, WiFi Configuration and Radio/Satellite Set Up & Configuration",
         "Build a Web-Based System for HR Office and Excel (Script Automation)"
       ],
-      tags: ["React", "TailWind CSS", "Node.js", "SQL"]
+      tags: ["React", "TailWind CSS", "Node.js", "SQL"],
+      mapsLink: "https://maps.app.goo.gl/H5W7f8UWwz7i2gYt9"
     },
     {
       role: "Photography Assistant",
@@ -33,12 +34,17 @@ const Experience = () => {
         "Applied essential editing techniques to images while coordinating overall page organization.",
         "Addressed customer inquiries and organized bookings to ensure seamless client experiences."
       ],
-      tags: ["Moderator", "Detailing", "Editing"]
+      tags: ["Moderator", "Detailing", "Editing"],
+      mapsLink: "https://maps.app.goo.gl/wcT2kmQn94fqVrWRA"
     },
-    
-    
-    
   ];
+
+  const handleRedirect = (mapsLink) => {
+    const confirmRedirect = window.confirm("Do you want to proceed to Google Maps?");
+    if (confirmRedirect) {
+      window.open(mapsLink, "_blank");
+    }
+  };
 
   return (
     <section id="experience" className="space-y-8">
@@ -49,7 +55,11 @@ const Experience = () => {
 
       <div className="relative border-l border-surfaceLight ml-4 space-y-8 pb-4">
         {experiences.map((exp, index) => (
-          <div key={index} className="relative pl-10">
+          <div 
+            key={index} 
+            className="relative pl-10 cursor-pointer"
+            onClick={() => handleRedirect(exp.mapsLink)}
+          >
             <div className="absolute -left-[17px] top-4 bg-primary p-2 rounded-full text-background">
               <Briefcase size={16} strokeWidth={3} />
             </div>

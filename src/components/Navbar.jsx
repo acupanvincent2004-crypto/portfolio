@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
 
       <button className="bg-primary text-background px-6 py-2 rounded-full font-semibold text-sm hover:opacity-90 transition-opacity">
-        Hire Me
+        Hire Mex
       </button>
     </nav>
   );
